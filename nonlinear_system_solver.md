@@ -5,7 +5,7 @@
 This project provides a command-line program in Python to solve systems of $n$ nonlinear algebraic equations with $n$ unknowns using the **Multivariable Newton-Raphson Method**. The program allows the user to input nonlinear equations symbolically, computes the Jacobian matrix numerically at each step, solves the linear increment system via Gaussian Elimination with partial pivoting, and prints a formatted iteration table with the final root vector.
 
 ## -- Github Repository
-[Repository](https://github.com/eng-mahmoud-awad/Numircal-Methods)
+[Repository](https://github.com/eng-mahmoud-awad/Numerical-Methods-2)
 
 ## 2. Mathematical Formulation
 

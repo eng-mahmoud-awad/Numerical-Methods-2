@@ -5,7 +5,7 @@
 This project provides a command-line program in Python to solve systems of $n \times n$ linear algebraic equations of the form $AX = b$. The user can dynamically enter any system of linear equations and choose from four classical iterative numerical methods. The program outputs a formatted step-by-step iteration table showing the variable values at each step, the current error or residuals, and the final approximate solution vector.
 
 ## -- Github Repository
-[Repository](https://github.com/eng-mahmoud-awad/Numircal-Methods)
+[Repository](https://github.com/eng-mahmoud-awad/Numerical-Methods-2)
 
 ## 2. Supported Iterative Methods
 
@@ -223,32 +223,32 @@ $$
 
 with initial guesses $x^{(0)} = (0, 0, 0)$, tolerance $0.0001$, and maximum iterations $50$.
 
-> **How to add your photos:** Save your screenshots in the same folder as this Markdown file and replace the image file names inside `![alt](filename.png)` below.
+
 
 ### 5.1 Jacobi Method Output
 
 * **Inputs:** Method `1`, Initial guesses `(0, 0, 0)`
 * **Screenshot:**
 
-  `![Jacobi Method Output](jacobi.png)`
+  ![Jacobi Method Output](jacobi.png)
 
 ### 5.2 Gauss-Seidel Method Output
 
 * **Inputs:** Method `2`, Initial guesses `(0, 0, 0)`
 * **Screenshot:**
 
-  `![Gauss-Seidel Method Output](gauss_seidel.png)`
+  ![Gauss-Seidel Method Output](Gauss.png)
 
 ### 5.3 Relaxation Method Output
 
 * **Inputs:** Method `3`, Initial guesses `(0, 0, 0)`
 * **Screenshot:**
 
-  `![Relaxation Method Output](relaxation.png)`
+  ![Relaxation Method Output](Relaxation.png)
 
 ### 5.4 Successive Over-Relaxation (SOR) Method Output
 
 * **Inputs:** Method `4`, $\omega = 1.1$, Initial guesses `(0, 0, 0)`
 * **Screenshot:**
 
-  `![SOR Method Output](sor.png)`
+  ![SOR Method Output](SOR.png)
